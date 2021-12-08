@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72F29D3A27602B70002E9DE5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D3927602B70002E9DE5 /* main.c */; };
+		72F29D5E27602ED7002E9DE5 /* encode-v1.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D4027602ED6002E9DE5 /* encode-v1.c */; };
+		72F29D5F27602ED7002E9DE5 /* stats.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D4927602ED6002E9DE5 /* stats.c */; };
+		72F29D6027602ED7002E9DE5 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D4D27602ED6002E9DE5 /* Makefile */; };
+		72F29D6127602ED7002E9DE5 /* pq.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D4E27602ED6002E9DE5 /* pq.c */; };
+		72F29D6227602ED7002E9DE5 /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D4F27602ED6002E9DE5 /* huffman.c */; };
+		72F29D6327602ED7002E9DE5 /* echo.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5027602ED6002E9DE5 /* echo.c */; };
+		72F29D6427602ED7002E9DE5 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5227602ED6002E9DE5 /* node.c */; };
+		72F29D6527602ED7002E9DE5 /* code.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5427602ED6002E9DE5 /* code.c */; };
+		72F29D6627602ED7002E9DE5 /* readbit.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5627602ED6002E9DE5 /* readbit.c */; };
+		72F29D6727602ED7002E9DE5 /* heap.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5727602ED6002E9DE5 /* heap.c */; };
+		72F29D6827602ED7002E9DE5 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5827602ED6002E9DE5 /* io.c */; };
+		72F29D6927602ED7002E9DE5 /* encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5927602ED6002E9DE5 /* encode.c */; };
+		72F29D6A27602ED7002E9DE5 /* iohelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5B27602ED7002E9DE5 /* iohelper.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +36,36 @@
 
 /* Begin PBXFileReference section */
 		72F29D3627602B70002E9DE5 /* Huffman Encoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Huffman Encoder"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72F29D3927602B70002E9DE5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		72F29D4027602ED6002E9DE5 /* encode-v1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "encode-v1.c"; path = "../../encode-v1.c"; sourceTree = "<group>"; };
+		72F29D4127602ED6002E9DE5 /* stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stats.h; path = ../../stats.h; sourceTree = "<group>"; };
+		72F29D4227602ED6002E9DE5 /* bv32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bv32.h; path = ../../bv32.h; sourceTree = "<group>"; };
+		72F29D4327602ED6002E9DE5 /* banana.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = banana.txt; path = ../../banana.txt; sourceTree = "<group>"; };
+		72F29D4427602ED6002E9DE5 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stack.h; path = ../../stack.h; sourceTree = "<group>"; };
+		72F29D4527602ED6002E9DE5 /* io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = io.h; path = ../../io.h; sourceTree = "<group>"; };
+		72F29D4627602ED6002E9DE5 /* huffman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = huffman.h; path = ../../huffman.h; sourceTree = "<group>"; };
+		72F29D4727602ED6002E9DE5 /* set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = set.h; path = ../../set.h; sourceTree = "<group>"; };
+		72F29D4827602ED6002E9DE5 /* shortfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = shortfile.txt; path = ../../shortfile.txt; sourceTree = "<group>"; };
+		72F29D4927602ED6002E9DE5 /* stats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stats.c; path = ../../stats.c; sourceTree = "<group>"; };
+		72F29D4A27602ED6002E9DE5 /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = defines.h; path = ../../defines.h; sourceTree = "<group>"; };
+		72F29D4B27602ED6002E9DE5 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = ../../node.h; sourceTree = "<group>"; };
+		72F29D4C27602ED6002E9DE5 /* heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = heap.h; path = ../../heap.h; sourceTree = "<group>"; };
+		72F29D4D27602ED6002E9DE5 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../Makefile; sourceTree = "<group>"; };
+		72F29D4E27602ED6002E9DE5 /* pq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pq.c; path = ../../pq.c; sourceTree = "<group>"; };
+		72F29D4F27602ED6002E9DE5 /* huffman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = huffman.c; path = ../../huffman.c; sourceTree = "<group>"; };
+		72F29D5027602ED6002E9DE5 /* echo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = echo.c; path = ../../echo.c; sourceTree = "<group>"; };
+		72F29D5127602ED6002E9DE5 /* short.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = short.txt; path = ../../short.txt; sourceTree = "<group>"; };
+		72F29D5227602ED6002E9DE5 /* node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = node.c; path = ../../node.c; sourceTree = "<group>"; };
+		72F29D5327602ED6002E9DE5 /* header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = header.h; path = ../../header.h; sourceTree = "<group>"; };
+		72F29D5427602ED6002E9DE5 /* code.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = code.c; path = ../../code.c; sourceTree = "<group>"; };
+		72F29D5527602ED6002E9DE5 /* bv8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bv8.h; path = ../../bv8.h; sourceTree = "<group>"; };
+		72F29D5627602ED6002E9DE5 /* readbit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = readbit.c; path = ../../readbit.c; sourceTree = "<group>"; };
+		72F29D5727602ED6002E9DE5 /* heap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = heap.c; path = ../../heap.c; sourceTree = "<group>"; };
+		72F29D5827602ED6002E9DE5 /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = io.c; path = ../../io.c; sourceTree = "<group>"; };
+		72F29D5927602ED6002E9DE5 /* encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = encode.c; path = ../../encode.c; sourceTree = "<group>"; };
+		72F29D5A27602ED7002E9DE5 /* pq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pq.h; path = ../../pq.h; sourceTree = "<group>"; };
+		72F29D5B27602ED7002E9DE5 /* iohelper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iohelper.c; path = ../../iohelper.c; sourceTree = "<group>"; };
+		72F29D5C27602ED7002E9DE5 /* code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = code.h; path = ../../code.h; sourceTree = "<group>"; };
+		72F29D5D27602ED7002E9DE5 /* iohelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iohelper.h; path = ../../iohelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +98,36 @@
 		72F29D3827602B70002E9DE5 /* Huffman Encoder */ = {
 			isa = PBXGroup;
 			children = (
-				72F29D3927602B70002E9DE5 /* main.c */,
+				72F29D4327602ED6002E9DE5 /* banana.txt */,
+				72F29D5427602ED6002E9DE5 /* code.c */,
+				72F29D5027602ED6002E9DE5 /* echo.c */,
+				72F29D4027602ED6002E9DE5 /* encode-v1.c */,
+				72F29D5927602ED6002E9DE5 /* encode.c */,
+				72F29D5727602ED6002E9DE5 /* heap.c */,
+				72F29D4F27602ED6002E9DE5 /* huffman.c */,
+				72F29D5827602ED6002E9DE5 /* io.c */,
+				72F29D5B27602ED7002E9DE5 /* iohelper.c */,
+				72F29D5227602ED6002E9DE5 /* node.c */,
+				72F29D4E27602ED6002E9DE5 /* pq.c */,
+				72F29D5627602ED6002E9DE5 /* readbit.c */,
+				72F29D4927602ED6002E9DE5 /* stats.c */,
+				72F29D5527602ED6002E9DE5 /* bv8.h */,
+				72F29D4227602ED6002E9DE5 /* bv32.h */,
+				72F29D5C27602ED7002E9DE5 /* code.h */,
+				72F29D4A27602ED6002E9DE5 /* defines.h */,
+				72F29D5327602ED6002E9DE5 /* header.h */,
+				72F29D4C27602ED6002E9DE5 /* heap.h */,
+				72F29D4627602ED6002E9DE5 /* huffman.h */,
+				72F29D4527602ED6002E9DE5 /* io.h */,
+				72F29D5D27602ED7002E9DE5 /* iohelper.h */,
+				72F29D4D27602ED6002E9DE5 /* Makefile */,
+				72F29D4B27602ED6002E9DE5 /* node.h */,
+				72F29D5A27602ED7002E9DE5 /* pq.h */,
+				72F29D4727602ED6002E9DE5 /* set.h */,
+				72F29D5127602ED6002E9DE5 /* short.txt */,
+				72F29D4827602ED6002E9DE5 /* shortfile.txt */,
+				72F29D4427602ED6002E9DE5 /* stack.h */,
+				72F29D4127602ED6002E9DE5 /* stats.h */,
 			);
 			path = "Huffman Encoder";
 			sourceTree = "<group>";
@@ -119,7 +189,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72F29D3A27602B70002E9DE5 /* main.c in Sources */,
+				72F29D5F27602ED7002E9DE5 /* stats.c in Sources */,
+				72F29D6827602ED7002E9DE5 /* io.c in Sources */,
+				72F29D6227602ED7002E9DE5 /* huffman.c in Sources */,
+				72F29D5E27602ED7002E9DE5 /* encode-v1.c in Sources */,
+				72F29D6027602ED7002E9DE5 /* Makefile in Sources */,
+				72F29D6327602ED7002E9DE5 /* echo.c in Sources */,
+				72F29D6627602ED7002E9DE5 /* readbit.c in Sources */,
+				72F29D6A27602ED7002E9DE5 /* iohelper.c in Sources */,
+				72F29D6427602ED7002E9DE5 /* node.c in Sources */,
+				72F29D6527602ED7002E9DE5 /* code.c in Sources */,
+				72F29D6727602ED7002E9DE5 /* heap.c in Sources */,
+				72F29D6927602ED7002E9DE5 /* encode.c in Sources */,
+				72F29D6127602ED7002E9DE5 /* pq.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
