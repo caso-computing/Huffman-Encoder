@@ -35,6 +35,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		72D3011A277009AF00A1623E /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		72D3011B277009AF00A1623E /* heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
+		72D3011C277009AF00A1623E /* iohelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iohelper.h; sourceTree = "<group>"; };
+		72D3011D277009AF00A1623E /* encode-v1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "encode-v1.c"; sourceTree = "<group>"; };
+		72D3011E277009AF00A1623E /* heap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = heap.c; sourceTree = "<group>"; };
+		72D3011F277009AF00A1623E /* shortfile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = shortfile.txt; sourceTree = "<group>"; };
+		72D30120277009AF00A1623E /* set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = set.h; sourceTree = "<group>"; };
+		72D30121277009AF00A1623E /* pq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pq.h; sourceTree = "<group>"; };
+		72D30122277009AF00A1623E /* short.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = short.txt; sourceTree = "<group>"; };
+		72D30123277009AF00A1623E /* code.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = code.c; sourceTree = "<group>"; };
+		72D30124277009AF00A1623E /* stats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stats.h; sourceTree = "<group>"; };
+		72D30125277009AF00A1623E /* node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		72D30126277009AF00A1623E /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		72D30127277009AF00A1623E /* readbit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = readbit.c; sourceTree = "<group>"; };
+		72D30128277009AF00A1623E /* code.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = code.h; sourceTree = "<group>"; };
+		72D30129277009AF00A1623E /* pq.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pq.c; sourceTree = "<group>"; };
+		72D3012A277009AF00A1623E /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		72D3012B277009AF00A1623E /* huffman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = huffman.h; sourceTree = "<group>"; };
+		72D3012C277009AF00A1623E /* iohelper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iohelper.c; sourceTree = "<group>"; };
+		72D3012D277009AF00A1623E /* bv32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bv32.h; sourceTree = "<group>"; };
+		72D3012E277009AF00A1623E /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		72D3012F277009AF00A1623E /* io.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = io.c; sourceTree = "<group>"; };
+		72D30130277009AF00A1623E /* huffman.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = huffman.c; sourceTree = "<group>"; };
+		72D30131277009AF00A1623E /* echo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = echo.c; sourceTree = "<group>"; };
+		72D30132277009AF00A1623E /* bv8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bv8.h; sourceTree = "<group>"; };
+		72D30133277009AF00A1623E /* io.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io.h; sourceTree = "<group>"; };
+		72D30134277009AF00A1623E /* encode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encode.c; sourceTree = "<group>"; };
+		72D30135277009AF00A1623E /* banana.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = banana.txt; sourceTree = "<group>"; };
+		72D30136277009B000A1623E /* node.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = node.c; sourceTree = "<group>"; };
+		72D30137277009B000A1623E /* stats.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stats.c; sourceTree = "<group>"; };
 		72F29D3627602B70002E9DE5 /* Huffman Encoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Huffman Encoder"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F29D4027602ED6002E9DE5 /* encode-v1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "encode-v1.c"; path = "../../encode-v1.c"; sourceTree = "<group>"; };
 		72F29D4127602ED6002E9DE5 /* stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stats.h; path = ../../stats.h; sourceTree = "<group>"; };
@@ -82,6 +112,36 @@
 		72F29D2D27602B70002E9DE5 = {
 			isa = PBXGroup;
 			children = (
+				72D30135277009AF00A1623E /* banana.txt */,
+				72D30123277009AF00A1623E /* code.c */,
+				72D30131277009AF00A1623E /* echo.c */,
+				72D3011D277009AF00A1623E /* encode-v1.c */,
+				72D30134277009AF00A1623E /* encode.c */,
+				72D3011E277009AF00A1623E /* heap.c */,
+				72D30130277009AF00A1623E /* huffman.c */,
+				72D3012F277009AF00A1623E /* io.c */,
+				72D3012C277009AF00A1623E /* iohelper.c */,
+				72D30136277009B000A1623E /* node.c */,
+				72D30129277009AF00A1623E /* pq.c */,
+				72D30127277009AF00A1623E /* readbit.c */,
+				72D30137277009B000A1623E /* stats.c */,
+				72D30132277009AF00A1623E /* bv8.h */,
+				72D3012D277009AF00A1623E /* bv32.h */,
+				72D30128277009AF00A1623E /* code.h */,
+				72D30126277009AF00A1623E /* defines.h */,
+				72D3012A277009AF00A1623E /* header.h */,
+				72D3011B277009AF00A1623E /* heap.h */,
+				72D3012B277009AF00A1623E /* huffman.h */,
+				72D30133277009AF00A1623E /* io.h */,
+				72D3011C277009AF00A1623E /* iohelper.h */,
+				72D3012E277009AF00A1623E /* Makefile */,
+				72D30125277009AF00A1623E /* node.h */,
+				72D30121277009AF00A1623E /* pq.h */,
+				72D30120277009AF00A1623E /* set.h */,
+				72D30122277009AF00A1623E /* short.txt */,
+				72D3011F277009AF00A1623E /* shortfile.txt */,
+				72D3011A277009AF00A1623E /* stack.h */,
+				72D30124277009AF00A1623E /* stats.h */,
 				72F29D3827602B70002E9DE5 /* Huffman Encoder */,
 				72F29D3727602B70002E9DE5 /* Products */,
 			);
