@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72D30138277A73CE00A1623E /* encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D30134277009AF00A1623E /* encode.c */; };
+		72D30139277A73D500A1623E /* heap.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D3011E277009AF00A1623E /* heap.c */; };
+		72D3013A277A73DA00A1623E /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D30130277009AF00A1623E /* huffman.c */; };
+		72D3013B277A73DE00A1623E /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D3012F277009AF00A1623E /* io.c */; };
+		72D3013C277A73E400A1623E /* iohelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D3012C277009AF00A1623E /* iohelper.c */; };
+		72D3013D277A73EA00A1623E /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D30136277009B000A1623E /* node.c */; };
+		72D3013E277A73EE00A1623E /* pq.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D30129277009AF00A1623E /* pq.c */; };
+		72D30140277A73F700A1623E /* stats.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D30137277009B000A1623E /* stats.c */; };
+		72D30141277A777400A1623E /* code.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D30123277009AF00A1623E /* code.c */; };
 		72F29D5E27602ED7002E9DE5 /* encode-v1.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D4027602ED6002E9DE5 /* encode-v1.c */; };
 		72F29D5F27602ED7002E9DE5 /* stats.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D4927602ED6002E9DE5 /* stats.c */; };
 		72F29D6027602ED7002E9DE5 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D4D27602ED6002E9DE5 /* Makefile */; };
@@ -15,7 +24,6 @@
 		72F29D6327602ED7002E9DE5 /* echo.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5027602ED6002E9DE5 /* echo.c */; };
 		72F29D6427602ED7002E9DE5 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5227602ED6002E9DE5 /* node.c */; };
 		72F29D6527602ED7002E9DE5 /* code.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5427602ED6002E9DE5 /* code.c */; };
-		72F29D6627602ED7002E9DE5 /* readbit.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5627602ED6002E9DE5 /* readbit.c */; };
 		72F29D6727602ED7002E9DE5 /* heap.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5727602ED6002E9DE5 /* heap.c */; };
 		72F29D6827602ED7002E9DE5 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5827602ED6002E9DE5 /* io.c */; };
 		72F29D6927602ED7002E9DE5 /* encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F29D5927602ED6002E9DE5 /* encode.c */; };
@@ -219,7 +227,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					72F29D3527602B70002E9DE5 = {
 						CreatedOnToolsVersion = 13.1;
@@ -249,19 +257,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D3013B277A73DE00A1623E /* io.c in Sources */,
 				72F29D5F27602ED7002E9DE5 /* stats.c in Sources */,
 				72F29D6827602ED7002E9DE5 /* io.c in Sources */,
 				72F29D6227602ED7002E9DE5 /* huffman.c in Sources */,
+				72D30138277A73CE00A1623E /* encode.c in Sources */,
 				72F29D5E27602ED7002E9DE5 /* encode-v1.c in Sources */,
 				72F29D6027602ED7002E9DE5 /* Makefile in Sources */,
 				72F29D6327602ED7002E9DE5 /* echo.c in Sources */,
-				72F29D6627602ED7002E9DE5 /* readbit.c in Sources */,
 				72F29D6A27602ED7002E9DE5 /* iohelper.c in Sources */,
+				72D30141277A777400A1623E /* code.c in Sources */,
 				72F29D6427602ED7002E9DE5 /* node.c in Sources */,
+				72D30140277A73F700A1623E /* stats.c in Sources */,
+				72D30139277A73D500A1623E /* heap.c in Sources */,
+				72D3013D277A73EA00A1623E /* node.c in Sources */,
 				72F29D6527602ED7002E9DE5 /* code.c in Sources */,
 				72F29D6727602ED7002E9DE5 /* heap.c in Sources */,
 				72F29D6927602ED7002E9DE5 /* encode.c in Sources */,
+				72D3013C277A73E400A1623E /* iohelper.c in Sources */,
 				72F29D6127602ED7002E9DE5 /* pq.c in Sources */,
+				72D3013E277A73EE00A1623E /* pq.c in Sources */,
+				72D3013A277A73DA00A1623E /* huffman.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +398,7 @@
 		72F29D3E27602B70002E9DE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -390,6 +407,7 @@
 		72F29D3F27602B70002E9DE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

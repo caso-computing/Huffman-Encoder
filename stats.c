@@ -19,7 +19,7 @@ int cmp(Stats *stats, uint32_t x, uint32_t y) {
 	return 1;
 }
 
-uint32_t move(Stats *stats, uint32_t x) {
+uint32_t mmove(Stats *stats, uint32_t x) {
 	stats->moves += 1;
 	return x;
 }
