@@ -24,13 +24,34 @@ static uint8_t readbuf[BLOCK];
 */
 
 int read_bytes(int infile, uint8_t *buf, int nbytes){
-	return read(infile, buf, nbytes);
+    int total_byte_read = 0;
+    while (bytes_read>0){
+        bytes_read = read(infile, buf, nbytes);
+        if (bytes_read==nbytes) {
+            total_byte_read += bytes_read;
+            return total_byte_read;  // read all the data requested
+        }
+        if (bytes_read==0){
+            return total_byte_read;     //  That's all folk.  Nothing more to read.  Must be eof
+        }
+        if (bytes_read < 0){
+            printf("There was a problem reading the requeste file\n");
+            exit(-1);
+        }
+        buf += bytes_read;      // Move the buffer pointer ahead by the number of bytes read
+        nbytes -= bytes_read;   // subtract the number of bytes_read from the number of bytes requested
+        total_byte_read += bytes_read;
+    }
+    return total_byte_read;
+    
 }
+    
+    
 
 int write_bytes(int outfile, uint8_t *buf, int nbytes){
 	return write(outfile, buf, nbytes);
 }
-/******************************************
+
 bool read_bit(int infile, uint8_t *bit){
 	infile = infile;
 	return true;
@@ -51,4 +72,4 @@ void flush_codes(int outfile){
 	outfile=outfile;
 	return;
 }
-*/
+
